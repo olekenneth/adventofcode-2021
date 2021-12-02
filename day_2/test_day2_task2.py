@@ -23,6 +23,4 @@ class Test3(unittest.TestCase):
     def test_3(self):
         readlines('./day_2/data.txt', self.do_task)
         print('position', self.x, '/', self.y, '=', self.x * self.y)
-        assert(self.x * self.y == 1947824)
-        assert(self.x == 1817)
-        assert(self.y == 1072)
+        assert(self.x * self.y == 1813062561)
